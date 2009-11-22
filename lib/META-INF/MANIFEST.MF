@@ -1,0 +1,47 @@
+Manifest-Version: 1.0
+Built-By: jeanfrancoisarcand
+Created-By: Apache Maven Bundle Plugin
+Bundle-License: https://glassfish.dev.java.net/public/CDDLv1.0.html
+Import-Package: com.sun.grizzly.http.res;resolution:=optional,com.sun.
+ grizzly.tcp,com.sun.grizzly.tcp.http11,com.sun.grizzly.tcp.http11.fil
+ ters,com.sun.grizzly.util,com.sun.grizzly.util.buf,com.sun.grizzly.ut
+ il.buf.res,com.sun.grizzly.util.collections,com.sun.grizzly.util.http
+ ,com.sun.grizzly.util.http.mapper,com.sun.grizzly.util.http.res,com.s
+ un.grizzly.util.net,com.sun.grizzly.util.net.jsse,com.sun.grizzly.uti
+ l.net.jsse.res,com.sun.grizzly.util.net.res,com.sun.grizzly.util.res,
+ javax.naming,javax.naming.directory,javax.net.ssl,javax.security.auth
+ ,javax.security.cert
+mode: development
+Bnd-LastModified: 1237880502166
+Export-Package: com.sun.grizzly.util.net.jsse;uses:="javax.security.ce
+ rt,com.sun.grizzly.util.net,com.sun.grizzly.util.res,com.sun.grizzly.
+ util,javax.net.ssl",com.sun.grizzly.util.http;uses:="com.sun.grizzly.
+ util.collections,com.sun.grizzly.util.buf,com.sun.grizzly.util.res,co
+ m.sun.grizzly.util",com.sun.grizzly.util.collections;uses:="com.sun.g
+ rizzly.util.buf",com.sun.grizzly.util.buf;uses:="com.sun.grizzly.util
+ .res,com.sun.grizzly.util",com.sun.grizzly.util.net.res,com.sun.grizz
+ ly.util.net;uses:="com.sun.grizzly.util.net.jsse,com.sun.grizzly.util
+ ,javax.net.ssl",com.sun.grizzly.util.net.jsse.res,com.sun.grizzly.tcp
+ ;uses:="com.sun.grizzly.util.http,com.sun.grizzly.util.buf,com.sun.gr
+ izzly.tcp.http11,com.sun.grizzly.util,com.sun.grizzly.tcp.http11.filt
+ ers",com.sun.grizzly.tcp.http11;uses:="com.sun.grizzly.util.http,com.
+ sun.grizzly.util.buf,com.sun.grizzly.tcp,javax.naming,com.sun.grizzly
+ .util.res,com.sun.grizzly.util,javax.security.auth,com.sun.grizzly.ut
+ il.http.mapper",com.sun.grizzly.util.http.res,com.sun.grizzly.util.bu
+ f.res,com.sun.grizzly.util.res,com.sun.grizzly.util;uses:="javax.net.
+ ssl",com.sun.grizzly.tcp.http11.filters;uses:="com.sun.grizzly.tcp.ht
+ tp11,com.sun.grizzly.util.buf,com.sun.grizzly.tcp",com.sun.grizzly.ut
+ il.http.mapper;uses:="javax.naming.directory,javax.naming,com.sun.gri
+ zzly.util.buf,com.sun.grizzly.util"
+Bundle-Version: 1.9.10
+Bundle-Name: grizzly-utils
+Build-Jdk: 1.5.0_16
+Bundle-DocURL: http://www.sun.com
+Bundle-ManifestVersion: 2
+Bundle-Vendor: SUN Microsystems
+Bundle-SymbolicName: com.sun.grizzly.grizzly-utils
+Tool: Bnd-0.0.255
+url: https://grizzly.dev.java.net
+implementation-version: 1.9.10
+package: com.sun.grizzly
+
